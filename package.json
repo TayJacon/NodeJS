@@ -1,0 +1,32 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "Um projeto simples para aprender nodejs",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TayJacon/NodeJS.git"
+  },
+  "keywords": [
+    "nodejs",
+    "unittests",
+    "apitests"
+  ],
+  "author": "Taynara Jacon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TayJacon/NodeJS/issues"
+  },
+  "homepage": "https://github.com/TayJacon/NodeJS#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^6.2.2"
+  }
+}
